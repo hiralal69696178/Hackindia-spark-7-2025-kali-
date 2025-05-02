@@ -1,17 +1,66 @@
-SecureAPI: A Smart Web API Security Tool
- 1. Project Title
- SecureAPI: A Smart Web API Security Tool
- 2. Problem Statement
- Modern web applications heavily rely on APIs to communicate between systems. However, many
- APIs are left exposed or misconfigured, making them prime targets for attackers. Existing tools
- either require deep technical knowledge or fail to provide actionable solutions for developers.
- 3. Proposed Solution
- SecureAPI is an intelligent API security tool designed to:- Automatically scan and analyze web APIs for common vulnerabilities (like Broken Authentication,
- Excessive Data Exposure, Rate Limiting, etc.)- Use OWASP API Security Top 10 as a baseline.- Provide detailed reports with practical, developer-friendly solutions.- Optionally run as a browser extension or CLI tool for ease of use.
- 4. Key Features- Input endpoint/Swagger/OpenAPI spec -> automatic scanning- Detection of misconfigurations, insecure headers, and common API flaws- Suggests exact code changes or security headers to apply- Exportable report (PDF/JSON)- Tech-aware recommendations (e.g., Flask, Express.js, Laravel)
- 5. Tech Stack- Frontend: React or basic HTML/CSS for dashboard
-- Backend: Python (FastAPI)- Scanner Engine: Custom Python logic + integrations with open-source tools- Database: SQLite or MongoDB (if storing scans)- Deployment: Docker-ready
- 6. Innovation / Uniqueness- Focuses solely on API-level vulnerabilities (unlike generic scanners)- Includes fix suggestions based on stack- Lightweight, beginner-friendly UI- Can integrate into CI/CD pipelines (DevSecOps ready)
- 7. Team Members
- HIRALAL RANA
- DEWASHISH SINGH
+# 🚀 SecureAPI: A Smart Web API Security Tool
+
+## 📌 Project Title
+**SecureAPI** – A Smart Web API Security Tool
+
+---
+
+## ❗ Problem Statement
+Modern web applications heavily rely on APIs to communicate between systems. However, many APIs are left **exposed** or **misconfigured**, making them prime targets for attackers.
+
+Existing tools:
+- Require deep technical knowledge, or
+- Fail to provide **developer-friendly** and **actionable** solutions.
+
+---
+
+## 💡 Proposed Solution
+**SecureAPI** is an intelligent API security tool designed to:
+
+- 🔍 Automatically **scan and analyze** web APIs for common vulnerabilities (e.g., Broken Authentication, Excessive Data Exposure, Rate Limiting)
+- 📑 Use **OWASP API Security Top 10** as a baseline
+- 🛠️ Generate **detailed reports** with **developer-friendly** recommendations
+- 🧩 Run as a **browser extension** or **CLI tool** for flexibility
+
+---
+
+## ✨ Key Features
+- ➤ Scan API endpoints, Swagger, or OpenAPI specs
+- ➤ Detect misconfigurations, insecure headers, and OWASP Top 10 API flaws
+- ➤ Suggest exact **code changes** or **security headers**
+- ➤ Export reports in **PDF** or **JSON**
+- ➤ Provide stack-specific advice (e.g., Flask, Express.js, Laravel)
+
+---
+
+## 🧰 Tech Stack
+| Layer       | Technology               |
+|-------------|--------------------------|
+| Frontend    | React / HTML, CSS        |
+| Backend     | Python (FastAPI)         |
+| Scanner     | Custom Python + OSS tools|
+| Database    | SQLite / MongoDB         |
+| Deployment  | Docker-ready             |
+
+---
+
+## 🧠 Innovation / Uniqueness
+- Focuses **exclusively on API-level vulnerabilities**
+- Provides **fix suggestions** tailored to the stack
+- Designed for **developers**, not just security experts
+- Easily integrates into **CI/CD pipelines** (DevSecOps-friendly)
+
+---
+
+## 👥 Team Members
+- **Hiralal Rana**
+- **Dewashish Singh**
+
+---
+
+## 📎 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙌 Contributions
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
