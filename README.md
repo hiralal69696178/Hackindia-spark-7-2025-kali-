@@ -6,15 +6,13 @@ SecureAPI: A Smart Web API Security Tool
 Modern web applications heavily rely on APIs to communicate between systems. However, many APIs are left exposed or misconfigured, making them prime targets for attackers. Existing tools either require deep technical knowledge or fail to provide actionable solutions for developers.
 
 3. Proposed Solution
-SecureAPI is an intelligent API security tool designed to:
+  SecureAPI is an intelligent API security tool designed to:
+  Automatically scan and analyze web APIs for common vulnerabilities (like Broken Authentication, Excessive Data Exposure, Rate Limiting, etc.)
+  Use OWASP API Security Top 10 as a baseline.
 
-Automatically scan and analyze web APIs for common vulnerabilities (like Broken Authentication, Excessive Data Exposure, Rate Limiting, etc.)
+   Provide detailed reports with practical, developer-friendly solutions.
 
-Use OWASP API Security Top 10 as a baseline.
-
-Provide detailed reports with practical, developer-friendly solutions.
-
-Optionally run as a browser extension or CLI tool for ease of use.
+  Optionally run as a browser extension or CLI tool for ease of use.
 
 4. Key Features
 Input endpoint/Swagger/OpenAPI spec → automatic scanning
